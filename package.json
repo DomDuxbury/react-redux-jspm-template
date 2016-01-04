@@ -1,8 +1,8 @@
 {
-  "name": "LRMA2",
+  "name": "JSPM Redux React Template",
   "version": "1.0.0",
-  "description": "App to visualize customer journeys (Laterooms MA 2)",
-  "main": "index.js",
+  "description": "Boilerplate and build tools for react redux frontend apps",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

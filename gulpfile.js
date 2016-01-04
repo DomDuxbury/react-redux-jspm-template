@@ -13,7 +13,7 @@ gulp.task('build-js', function() {
     return jspm({
             bundleSfx: true,
             bundles: [{
-                src: 'src/app/main',
+                src: 'src/main',
                 dst: 'bundle.min.js'
             }]
         })

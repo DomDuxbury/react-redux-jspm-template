@@ -25,7 +25,7 @@ function todo(state, action) {
       }
       return {
         ...state,
-        completed: true
+        completed: !state.completed
       };
     default:
       return state;

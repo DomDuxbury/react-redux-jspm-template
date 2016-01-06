@@ -4,7 +4,7 @@ export default class HelloWorld extends React.Component {
   render() {
     return (
       <div>
-        <p> Hello Worlds </p>
+        <p> Hello World </p>
       </div>
     );
   }

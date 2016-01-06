@@ -22,6 +22,7 @@ System.config({
     "react": "npm:react@0.14.5",
     "react-dom": "npm:react-dom@0.14.3",
     "react-redux": "npm:react-redux@4.0.6",
+    "react-router": "npm:react-router@1.0.3",
     "redux": "npm:redux@3.0.5",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -647,6 +648,15 @@ System.config({
     "npm:hash.js@1.0.3": {
       "inherits": "npm:inherits@2.0.1"
     },
+    "npm:history@1.17.0": {
+      "child_process": "github:jspm/nodelibs-child_process@0.1.0",
+      "deep-equal": "npm:deep-equal@1.0.1",
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "invariant": "npm:invariant@2.2.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "query-string": "npm:query-string@3.0.0",
+      "warning": "npm:warning@2.1.0"
+    },
     "npm:hosted-git-info@2.1.4": {
       "url": "github:jspm/nodelibs-url@0.1.0"
     },
@@ -1016,6 +1026,9 @@ System.config({
     "npm:punycode@1.3.2": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
+    "npm:query-string@3.0.0": {
+      "strict-uri-encode": "npm:strict-uri-encode@1.1.0"
+    },
     "npm:randombytes@2.0.1": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
@@ -1030,6 +1043,14 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "react": "npm:react@0.14.5",
       "redux": "npm:redux@3.0.5"
+    },
+    "npm:react-router@1.0.3": {
+      "child_process": "github:jspm/nodelibs-child_process@0.1.0",
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "history": "npm:history@1.17.0",
+      "invariant": "npm:invariant@2.2.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "warning": "npm:warning@2.1.0"
     },
     "npm:react@0.14.5": {
       "envify": "npm:envify@3.4.0",
@@ -1257,6 +1278,10 @@ System.config({
     },
     "npm:vm-browserify@0.0.4": {
       "indexof": "npm:indexof@0.0.1"
+    },
+    "npm:warning@2.1.0": {
+      "loose-envify": "npm:loose-envify@1.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:window-size@0.1.0": {
       "process": "github:jspm/nodelibs-process@0.1.2",
